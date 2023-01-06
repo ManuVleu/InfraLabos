@@ -1,0 +1,19 @@
+[2022-10-10 17:32:49.154] [sharedprocess] [info] Starting worker process with pid 5809 (type: fileWatcher, window: 1).
+[2022-10-10 17:32:51.984] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds
+[2022-10-10 17:39:41.955] [sharedprocess] [info] Getting Manifest... yzhang.markdown-all-in-one
+[2022-10-10 17:39:42.001] [sharedprocess] [info] Installing extension: yzhang.markdown-all-in-one
+[2022-10-10 17:39:44.372] [sharedprocess] [info] Downloaded extension: yzhang.markdown-all-in-one /home/osboxes/.config/Code/CachedExtensionVSIXs/yzhang.markdown-all-in-one-3.4.3
+[2022-10-10 17:39:44.629] [sharedprocess] [info] Extracted extension to /home/osboxes/.vscode/extensions/.d7e0ee39-5a73-4cb9-8027-cda495aed01e: yzhang.markdown-all-in-one
+[2022-10-10 17:39:44.635] [sharedprocess] [info] Renamed to /home/osboxes/.vscode/extensions/yzhang.markdown-all-in-one-3.4.3
+[2022-10-10 17:39:44.642] [sharedprocess] [info] Extracting completed. yzhang.markdown-all-in-one
+[2022-10-10 17:39:44.656] [sharedprocess] [info] Extension installed successfully: yzhang.markdown-all-in-one
+[2022-10-10 17:39:58.233] [sharedprocess] [info] Getting Manifest... davidanson.vscode-markdownlint
+[2022-10-10 17:39:58.253] [sharedprocess] [info] Installing extension: davidanson.vscode-markdownlint
+[2022-10-10 17:39:59.774] [sharedprocess] [info] Downloaded extension: davidanson.vscode-markdownlint /home/osboxes/.config/Code/CachedExtensionVSIXs/davidanson.vscode-markdownlint-0.48.1
+[2022-10-10 17:39:59.806] [sharedprocess] [info] Extracted extension to /home/osboxes/.vscode/extensions/.5c25cf24-18ae-487d-bc74-2546e3c7ecd1: davidanson.vscode-markdownlint
+[2022-10-10 17:39:59.812] [sharedprocess] [info] Renamed to /home/osboxes/.vscode/extensions/davidanson.vscode-markdownlint-0.48.1
+[2022-10-10 17:39:59.815] [sharedprocess] [info] Extracting completed. davidanson.vscode-markdownlint
+[2022-10-10 17:39:59.826] [sharedprocess] [info] Extension installed successfully: davidanson.vscode-markdownlint
+[2022-10-10 17:42:05.354] [sharedprocess] [info] Detected extension installed from another source timonwong.shellcheck
+[2022-10-10 17:42:31.249] [sharedprocess] [info] Detected extension installed from another source eamodio.gitlens
+[2022-10-10 17:43:41.221] [sharedprocess] [info] Detected extension installed from another source mhutchie.git-graph

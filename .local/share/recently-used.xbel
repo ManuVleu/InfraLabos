@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/osboxes/Documents/DistDB/docker-install.sh" added="2022-10-05T13:13:10Z" modified="2022-10-05T13:13:10Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2022-10-05T13:13:10Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/osboxes/Downloads/code_1.72.0-1664926972_amd64.deb" added="2022-10-10T21:30:10Z" modified="2022-10-10T21:30:10Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-10-10T21:30:10Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/osboxes/Downloads/sl_5.02-1_amd64.deb" added="2022-10-17T09:35:48Z" modified="2022-10-17T09:37:47Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-10-17T09:35:49Z" count="2"/>
+          <bookmark:application name="Caja" exec="&apos;gdebi-gtk %f&apos;" modified="2022-10-17T09:37:47Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/osboxes/Downloads/isc-dhcp-server_4.4.1-2.3_arm64.deb" added="2022-10-17T15:36:00Z" modified="2022-10-17T15:36:00Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-10-17T15:36:00Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

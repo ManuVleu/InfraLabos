@@ -1,0 +1,11 @@
+color = ''
+[default]
+account_id = 'acct_1LwRRCC8QX4f1dbX'
+device_name = 'osboxes'
+live_mode_api_key = 'rk_live_***********************************************************************************************OnzN'
+live_mode_key_expires_at = '2023-01-22'
+live_mode_pub_key = 'pk_live_51LwRRCC8QX4f1dbXtuD880swNBzsTfL70Rov5xfaW28TiYUy6wUHbv9Rf8I12Z47OqC0RX5OrOFyWsuU4FJ5fnee00qYi0na9m'
+test_mode_api_key = 'rk_test_51LwRRCC8QX4f1dbXZvLEbnI73H23Zqviq6Mw0B0t2Q0WMilhJQrh0DBNKL4Elyma4ulD6WKIFOSX9tL7vUyMWARO00eWsP2kqC'
+test_mode_key_expires_at = '2023-01-22'
+test_mode_pub_key = 'pk_test_51LwRRCC8QX4f1dbX7vuil2xAPY8UdXDeJK8SKQCYXMZePerpEjSW5o1G2NZ4t8pfuy0s3INuctUMFIAhDXomOBOP00raA0KlzX'
+

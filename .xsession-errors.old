@@ -1,0 +1,56 @@
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/osboxes/.Xauthority
+dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-mate:/etc/xdg
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+dbus-update-activation-environment: setting LANGUAGE=en_US
+dbus-update-activation-environment: setting DESKTOP_SESSION=mate
+dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+dbus-update-activation-environment: setting PWD=/home/osboxes
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=mate
+dbus-update-activation-environment: setting LOGNAME=osboxes
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting XAUTHORITY=/home/osboxes/.Xauthority
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/osboxes
+dbus-update-activation-environment: setting GDM_LANG=en_US
+dbus-update-activation-environment: setting HOME=/home/osboxes
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting LANG=en_US.UTF-8
+dbus-update-activation-environment: setting XDG_CURRENT_DESKTOP=MATE
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting USER=osboxes
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting SHLVL=1
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting GTK3_MODULES=xapp-gtk3-module
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/mate:/home/osboxes/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting GDMSESSION=mate
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
+mate-session-check-accelerated: GL Helper exited with code 512
+libEGL warning: DRI2: failed to authenticate
+mate-session-check-accelerated: GLES Helper exited with code 512
+mate-session[1636]: WARNING: Unable to find provider '' of required component 'dock'
+Window manager warning: Log level 128: unsetenv() is not thread-safe and should not be used after threads are created
+vmware-user: could not open /proc/fs/vmblock/dev
+Error: /usr/bin/vmtoolsd must be run inside a virtual machine on a VMware hypervisor product.
+
+(caja:1838): Gtk-WARNING **: 16:35:57.804: Failed to register client: GDBus.Error:org.gnome.SessionManager.AlreadyRegistered: Unable to register client
+
+(mate-power-manager:1865): PowerManager-WARNING **: 16:35:58.157: Failed to get session for pid 1865: The name org.freedesktop.ConsoleKit was not provided by any .service files
+
+(mate-power-manager:1865): PowerManager-WARNING **: 16:35:58.172: could not map keysym 1008ffa8 to keycode
+
+** (mate-screensaver:1931): WARNING **: 16:35:59.405: screensaver already running in this session
+
+(mate-power-manager:1865): GLib-CRITICAL **: 17:56:48.621: Source ID 65 was not found when attempting to remove it
+Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x2a00011 (mintMenu.p)
+Window manager warning: meta_window_activate called by a pager with a 0 timestamp; the pager needs to be fixed.
+Window manager warning: Log level 8: g_main_loop_is_running: assertion 'loop != NULL' failed

@@ -1,0 +1,272 @@
+{
+  "updates": {
+    "xserver-xorg-video-amdgpu": {
+      "type": "package",
+      "since": "2022.09.26",
+      "days": 23
+    },
+    "bind9": {
+      "type": "security",
+      "since": "2022.09.29",
+      "days": 22
+    },
+    "libjpeg-turbo": {
+      "type": "security",
+      "since": "2022.09.29",
+      "days": 22
+    },
+    "linux-meta": {
+      "type": "kernel",
+      "since": "2022.09.29",
+      "days": 22
+    },
+    "mako": {
+      "type": "security",
+      "since": "2022.09.29",
+      "days": 22
+    },
+    "systemd": {
+      "type": "package",
+      "since": "2022.09.29",
+      "days": 22
+    },
+    "pcre2": {
+      "type": "security",
+      "since": "2022.09.29",
+      "days": 22
+    },
+    "tiff": {
+      "type": "security",
+      "since": "2022.09.29",
+      "days": 22
+    },
+    "firefox": {
+      "type": "security",
+      "since": "2022.09.29",
+      "days": 22
+    },
+    "webkit2gtk": {
+      "type": "security",
+      "since": "2022.09.29",
+      "days": 22
+    },
+    "ghostscript": {
+      "type": "security",
+      "since": "2022.09.30",
+      "days": 21
+    },
+    "timeshift": {
+      "type": "package",
+      "since": "2022.09.30",
+      "days": 21
+    },
+    "thunderbird": {
+      "type": "security",
+      "since": "2022.10.06",
+      "days": 17
+    },
+    "zlib": {
+      "type": "security",
+      "since": "2022.10.06",
+      "days": 17
+    },
+    "libreoffice": {
+      "type": "security",
+      "since": "2022.10.08",
+      "days": 16
+    },
+    "isc-dhcp": {
+      "type": "security",
+      "since": "2022.10.08",
+      "days": 16
+    },
+    "gmp": {
+      "type": "security",
+      "since": "2022.10.17",
+      "days": 12
+    },
+    "code": {
+      "type": "package",
+      "since": "2022.10.17",
+      "days": 12
+    },
+    "heimdal": {
+      "type": "security",
+      "since": "2022.10.24",
+      "days": 11
+    },
+    "unzip": {
+      "type": "security",
+      "since": "2022.10.24",
+      "days": 11
+    },
+    "perl": {
+      "type": "security",
+      "since": "2022.11.01",
+      "days": 10
+    },
+    "git": {
+      "type": "security",
+      "since": "2022.11.01",
+      "days": 10
+    },
+    "libksba": {
+      "type": "security",
+      "since": "2022.11.01",
+      "days": 10
+    },
+    "pillow": {
+      "type": "security",
+      "since": "2022.11.01",
+      "days": 10
+    },
+    "mysql-8.0": {
+      "type": "package",
+      "since": "2022.11.01",
+      "days": 10
+    },
+    "dbus": {
+      "type": "security",
+      "since": "2022.11.02",
+      "days": 9
+    },
+    "curl": {
+      "type": "security",
+      "since": "2022.11.02",
+      "days": 9
+    },
+    "fwupd": {
+      "type": "package",
+      "since": "2022.11.02",
+      "days": 9
+    },
+    "linux-firmware": {
+      "type": "package",
+      "since": "2022.11.02",
+      "days": 9
+    },
+    "tzdata": {
+      "type": "security",
+      "since": "2022.11.02",
+      "days": 9
+    },
+    "ntfs-3g": {
+      "type": "security",
+      "since": "2022.11.06",
+      "days": 8
+    },
+    "distro-info-data": {
+      "type": "package",
+      "since": "2022.11.07",
+      "days": 7
+    },
+    "xapp": {
+      "type": "package",
+      "since": "2022.11.19",
+      "days": 6
+    },
+    "php7.4": {
+      "type": "security",
+      "since": "2022.11.21",
+      "days": 5
+    },
+    "libfprint": {
+      "type": "package",
+      "since": "2022.11.21",
+      "days": 5
+    },
+    "multipath-tools": {
+      "type": "security",
+      "since": "2022.11.21",
+      "days": 5
+    },
+    "containerd": {
+      "type": "security",
+      "since": "2022.11.21",
+      "days": 5
+    },
+    "pixman": {
+      "type": "security",
+      "since": "2022.11.21",
+      "days": 5
+    },
+    "stripe": {
+      "type": "package",
+      "since": "2022.11.21",
+      "days": 5
+    },
+    "expat": {
+      "type": "security",
+      "since": "2022.11.21",
+      "days": 5
+    },
+    "runc": {
+      "type": "package",
+      "since": "2022.11.21",
+      "days": 5
+    },
+    "compiz": {
+      "type": "package",
+      "since": "2022.11.22",
+      "days": 4
+    },
+    "flac": {
+      "type": "security",
+      "since": "2022.11.22",
+      "days": 4
+    },
+    "xorg-server": {
+      "type": "security",
+      "since": "2022.12.05",
+      "days": 2
+    },
+    "mariadb-10.3": {
+      "type": "security",
+      "since": "2022.12.05",
+      "days": 2
+    },
+    "apport": {
+      "type": "package",
+      "since": "2022.12.05",
+      "days": 2
+    },
+    "jbigkit": {
+      "type": "security",
+      "since": "2022.12.05",
+      "days": 2
+    },
+    "binutils": {
+      "type": "security",
+      "since": "2023.01.06",
+      "days": 1
+    },
+    "dnsmasq": {
+      "type": "package",
+      "since": "2023.01.06",
+      "days": 1
+    },
+    "shadow": {
+      "type": "security",
+      "since": "2023.01.06",
+      "days": 1
+    },
+    "lintian": {
+      "type": "package",
+      "since": "2023.01.06",
+      "days": 1
+    },
+    "libxml2": {
+      "type": "security",
+      "since": "2023.01.06",
+      "days": 1
+    },
+    "ca-certificates": {
+      "type": "security",
+      "since": "2023.01.06",
+      "days": 1
+    }
+  },
+  "version": 1,
+  "checked": "2023.01.06",
+  "notified": "2023.01.06"
+}
