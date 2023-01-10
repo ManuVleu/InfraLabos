@@ -18,11 +18,36 @@ function usage {
 
 function generate_passphrase {
   passphrase=$(shuf -n "$n" "$wordlist_file" | tr '\n' ' ')
-  return ${passphrase::-1}
+  return "${passphrase::-1}"
 }
 
 function process_cli_args {
-  echo 'process cli'
+  if [ $# -gt 2 ]; then
+    echo "Error: too many arguments provided" >&2
+    usage
+    exit 1
+  fi
+
+  for arg in "$@"; do
+    case "$arg" in
+    -h | --help)
+        usage
+        exit 0
+        ;;
+    -*)
+        echo "Error: Invalid option $arg" >&2
+        usage
+        exit 1
+        ;;
+    *)
+        if [ -f "$arg" ]; then
+          wordlist_file=$arg
+        else
+          n=$arg
+        fi
+        ;;
+    esac
+  done
 }
 
 function main {
