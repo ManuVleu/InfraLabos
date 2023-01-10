@@ -1,45 +1,33 @@
 #!/bin/bash
+
+# Usage: passphrase.sh [N] [WORDS]
+# N = aantal woorden in wachtwoordzin (default = 4)
+# WORDS = bestand dat woordenlijst bevat (default = /usr/share/dict/words)
+
 set -o nounset
 set -o errexit
 
-case ${#} in
-  "0")
-    passphrase
-  ;;
-  "1")
-    if [ ${1} in "-h" | "--help" ]; then
-      help
-    fi
-  ;;
-  "2")
-    passphrase ${1} ${2}
-  ;;
-  *)
-    echo "There can not be more than 2 parameters. Use -h to get more info" >&2
-  ;;
-esac
+n=4
+wordlist_file="/usr/share/dict/words"
 
-
-passphrase() {
-echo "params${1}"
-length=$(cat /usr/share/dict/words | wc -l)
-passphrase=''
-for i in {1..4};
-do
-  rnd_nr=$(( ${RANDOM} % ${length} + 1 ))
-  passphrase=${passphrase}' '$(sed -n "${rnd_nr}p" /usr/share/dict/words)
-done
-
-echo ${passphrase}
+function usage {
+  echo "Usage: passphrase.sh [N] [WORDS]"
+  echo "N = aantal woorden in wachtwoordzin (default = 4)"
+  echo "WORDS = bestand dat woordenlijst bevat (default = /usr/share/dict/words)"
 }
 
-help() {
-echo "Deze functie geeft een wachtwoordszin terug"
-echo "Zonder parameters 4 woorden van /usr/share/dict/words"
-echo "-h: Drukt deze tekst af"
-echo "passphrase.sh [N] [WORDS]: N = aantal woorden in wachtwoordzin(def=4)"
-echo "				 WORDS = bestand waarvan woorden wordt gebruikt(def=/usr/share/dict/words)"
-
+function generate_passphrase {
+  passphrase=$(shuf -n "$n" "$wordlist_file" | tr '\n' ' ')
+  return ${passphrase::-1}
 }
 
+function process_cli_args {
+  echo 'process cli'
+}
 
+function main {
+  generate_passphrase
+  echo "$?"
+}
+
+main

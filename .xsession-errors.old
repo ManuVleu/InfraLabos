@@ -37,20 +37,41 @@ dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-en
 mate-session-check-accelerated: GL Helper exited with code 512
 libEGL warning: DRI2: failed to authenticate
 mate-session-check-accelerated: GLES Helper exited with code 512
-mate-session[1636]: WARNING: Unable to find provider '' of required component 'dock'
+mate-session[1651]: WARNING: Unable to find provider '' of required component 'dock'
 Window manager warning: Log level 128: unsetenv() is not thread-safe and should not be used after threads are created
 vmware-user: could not open /proc/fs/vmblock/dev
 Error: /usr/bin/vmtoolsd must be run inside a virtual machine on a VMware hypervisor product.
 
-(caja:1838): Gtk-WARNING **: 16:35:57.804: Failed to register client: GDBus.Error:org.gnome.SessionManager.AlreadyRegistered: Unable to register client
+(caja:1857): Gtk-WARNING **: 09:49:43.133: Failed to register client: GDBus.Error:org.gnome.SessionManager.AlreadyRegistered: Unable to register client
 
-(mate-power-manager:1865): PowerManager-WARNING **: 16:35:58.157: Failed to get session for pid 1865: The name org.freedesktop.ConsoleKit was not provided by any .service files
+(mate-power-manager:1889): PowerManager-WARNING **: 09:49:43.586: Failed to get session for pid 1889: The name org.freedesktop.ConsoleKit was not provided by any .service files
 
-(mate-power-manager:1865): PowerManager-WARNING **: 16:35:58.172: could not map keysym 1008ffa8 to keycode
+(mate-power-manager:1889): PowerManager-WARNING **: 09:49:43.613: could not map keysym 1008ffa8 to keycode
 
-** (mate-screensaver:1931): WARNING **: 16:35:59.405: screensaver already running in this session
+** (mate-screensaver:1942): WARNING **: 09:49:44.962: screensaver already running in this session
 
-(mate-power-manager:1865): GLib-CRITICAL **: 17:56:48.621: Source ID 65 was not found when attempting to remove it
-Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x2a00011 (mintMenu.p)
-Window manager warning: meta_window_activate called by a pager with a 0 timestamp; the pager needs to be fixed.
-Window manager warning: Log level 8: g_main_loop_is_running: assertion 'loop != NULL' failed
+(mate-power-manager:1889): PowerManager-WARNING **: 10:46:05.018: failed to play power-plug: Sound disabled
+
+(mate-power-manager:1889): GLib-CRITICAL **: 10:58:24.058: Source ID 123 was not found when attempting to remove it
+[2023-01-06T17:12:21Z ERROR glean_core::metrics::ping] Invalid reason code startup for ping background-update
+[2023-01-06T17:12:28Z ERROR viaduct::backend::ffi] Missing HTTP status
+[2023-01-06T17:12:28Z ERROR viaduct::backend::ffi] Missing HTTP status
+[2023-01-06T17:12:28Z ERROR viaduct::backend::ffi] Missing HTTP status
+[2023-01-06T17:12:28Z ERROR viaduct::backend::ffi] Missing HTTP status
+[2023-01-06T17:12:28Z ERROR viaduct::backend::ffi] Missing HTTP status
+
+(caja:1857): Gtk-CRITICAL **: 12:40:23.412: gtk_container_foreach: assertion 'GTK_IS_CONTAINER (container)' failed
+
+(caja:1857): Gtk-CRITICAL **: 12:40:23.413: gtk_container_foreach: assertion 'GTK_IS_CONTAINER (container)' failed
+
+(caja:1857): Gtk-CRITICAL **: 12:40:23.413: gtk_container_foreach: assertion 'GTK_IS_CONTAINER (container)' failed
+
+(caja:1857): Gtk-CRITICAL **: 12:40:23.413: gtk_container_foreach: assertion 'GTK_IS_CONTAINER (container)' failed
+
+(caja:1857): Gtk-CRITICAL **: 12:40:23.413: gtk_container_foreach: assertion 'GTK_IS_CONTAINER (container)' failed
+
+(caja:1857): Gtk-CRITICAL **: 12:40:23.413: gtk_container_foreach: assertion 'GTK_IS_CONTAINER (container)' failed
+
+(mate-power-manager:1889): GLib-CRITICAL **: 13:15:28.415: Source ID 475 was not found when attempting to remove it
+
+(mate-power-manager:1889): GLib-CRITICAL **: 15:26:34.065: Source ID 508 was not found when attempting to remove it
