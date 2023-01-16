@@ -16,8 +16,7 @@ function usage {
 function create_backup {
   # Current timestamp
   timestamp=$(date +%Y%m%d%H%M)
-  echo "$timestamp"
-  tar -czf "$dest_dir"/"$source_dir"_"$timestamp".tar.gz "$source_dir"
+  tar -czf "$dest_dir$source_dir_$timestamp.tar.gz" "$source_dir"
 }
 
 function process_cli_args {
