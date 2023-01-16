@@ -48,11 +48,12 @@ function process_cli_args {
         ;;
     esac
   done
+  generate_passphrase
 }
 
 function main {
-  generate_passphrase
-  echo "$?"
+  passphrase=$(process_cli_args "$@")
+  echo "$passphrase"
 }
 
-main
+main "$@"
