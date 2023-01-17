@@ -18,11 +18,11 @@ function usage {
 
 function generate_passphrase {
   passphrase=$(shuf -n "$n" "$wordlist_file" | tr '\n' ' ')
-  return "${passphrase::-1}"
+  echo "${passphrase}"
 }
 
 function process_cli_args {
-  if [ $# -gt 2 ]; then
+  if [ "$#" -gt 2 ]; then
     echo "Error: too many arguments provided" >&2
     usage
     exit 1
@@ -52,8 +52,8 @@ function process_cli_args {
 }
 
 function main {
-  passphrase=$(process_cli_args "$@")
+  passphrase=$(process_cli_args $@)
   echo "$passphrase"
 }
 
-main "$@"
+main $@
