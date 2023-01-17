@@ -5,8 +5,8 @@ then
   exit 1; 
 fi
 
-for i in $(seq ${#});
+for _ in $(seq ${#});
 do
-  echo ${1}
+  echo "${1}"
   shift
 done
