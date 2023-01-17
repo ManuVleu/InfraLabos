@@ -16,11 +16,14 @@ function usage {
 function create_backup {
   # Current timestamp
   timestamp=$(date +%Y%m%d%H%M)
-  tar -czf "$dest_dir$source_dir_$timestamp.tar.gz" "$source_dir"
+  dir="$dest_dir/"
+  dir+=$(basename "$source_dir")
+  dir+="-$timestamp.tar.gz"
+  tar -czf "$dir" "$source_dir" > "$dest_dir/backup-$timestamp.log" 2> "$dest_dir/backup-$timestamp.log"
 }
 
 function process_cli_args {
-    if [ $# -gt 2 ]; then
+    if [ $# -gt 3 ]; then
         echo "Error: too many arguments provided" >&2
         usage
         exit 1
@@ -34,6 +37,10 @@ function process_cli_args {
             ;;
         -d | --destination)
             shift
+            if ! [ -d "$1" ]; then
+              echo "Error: destination directory doesn't exist" >&2
+              exit 1
+            fi
             dest_dir=$1
             ;;
         -*)
@@ -42,7 +49,12 @@ function process_cli_args {
             exit 1
             ;;
         *)
-            source_dir=$arg
+            if [ -d "$arg" ]; then
+              source_dir=$arg
+            else
+              echo "Error: source directory doesn't exist" >&2
+              exit 1
+            fi
             ;;
         esac
     done
@@ -50,7 +62,7 @@ function process_cli_args {
 }
 
 function main {
-    create_backup "$@"
+    process_cli_args "$@"
 }
 
 main "$@"
