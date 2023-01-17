@@ -3,11 +3,6 @@ set -o errexit
 set -o nounset
 set -o pipefail
 
-for i in $(find /home/osboxes/.trash -type f -mtime +14);
-do
-  rm -v ${i}
-done
-
 if [ "${#}" -eq "0" ]; then
   echo "No arguments given";
   exit 1;
@@ -31,3 +26,5 @@ do
   fi  
   shift
 done
+
+find /home/osboxes/.trash -type f -mtime +14 -exec rm -v "${i}" {} \;
