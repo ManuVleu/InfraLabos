@@ -52,8 +52,8 @@ function process_cli_args {
 }
 
 function main {
-  passphrase=$(process_cli_args $@)
+  passphrase=$(process_cli_args "$@")
   echo "$passphrase"
 }
 
-main $@
+main "$@"
